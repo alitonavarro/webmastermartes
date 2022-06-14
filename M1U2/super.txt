@@ -2,3 +2,8 @@ pan
 galletitas
 rollo papel
 gelatina
+bananas
+manzanas
+palta
+lechuga
+tomates
