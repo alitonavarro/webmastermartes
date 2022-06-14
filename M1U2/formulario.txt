@@ -1,1 +1,5 @@
 datos a cargar
+nombre
+apellido
+trabajo
+tel
