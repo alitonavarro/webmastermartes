@@ -3,12 +3,12 @@ body {
     /*base*/
 }
 
-h1 {
+h3 {
     font-size: 2rem;
-    /*28px*/
+    /*40px*/
 
-    /* 1rem....14px;
-    2rem....28px */
+    /* 1rem....20px;
+    2rem....40px */
 }
 
 p {
