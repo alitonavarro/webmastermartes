@@ -1,0 +1,49 @@
+/*
+font-family: 'League Gothic', sans-serif;
+font-family: 'Smooch', cursive;
+font-family: 'Tai Heritage Pro', serif;
+*/
+
+
+
+.caja {
+    width: 300px;
+    height: 300px;
+    /* background-color: yellow; */
+    padding: 20px;
+    box-sizing: border-box;
+    background: #0022ff;
+    background: linear-gradient(180deg, #0022ff 0%, #00bbff 80%);
+    background: -webkit-linear-gradient(180deg, #0022ff 0%, #00bbff 80%);
+    background: -moz-linear-gradient(180deg, #0022ff 0%, #00bbff 80%);
+    color: white;
+    /*sombra*/
+    box-shadow: 10px 20px 25px black;
+    /*eje X - eje Y - desenfoque - color*/
+    /*borde redondeado*/
+    border-radius: 20px 40px 60px;
+}
+
+.texto {
+    column-count: 4;
+    /*cantidad de columnas*/
+    column-gap: 50px;
+    /*espacio entre columnas*/
+    column-rule: 2px dashed red;
+    /*none*/
+    /*similar borde*/
+}
+
+h1 {
+    font-family: 'League Gothic', sans-serif;
+}
+
+h2 {
+    font-family: 'Smooch', cursive;
+}
+
+.icono {
+    font-size: 50px;
+    color: red;
+    background-color: yellow;
+}

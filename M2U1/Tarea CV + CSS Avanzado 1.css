@@ -1,0 +1,95 @@
+body {
+    font-size: 20px;
+    /*base*/
+}
+
+h1 {
+    margin-left: 120px;
+}
+
+h3 {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 2rem;
+    /*40px*/
+
+    /* 1rem....20px;
+    2rem....40px */
+}
+
+p {
+    color: black;
+}
+
+.img {
+    width: 560px;
+    height: 560px;
+    box-shadow: 10px 20px 25px black;
+    border-radius: 20px 40px 60px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin-left: 80px;
+
+}
+
+.destacados {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#series {
+    margin-top: 20px;
+    width: 50%;
+    height: 400px;
+    /* background-color: rgba(148, 148, 238, 0.5);*/
+    background: #b4d3ec;
+    background: linear-gradient(90deg, #b4d3ec 0%, #deebf1 80%);
+    background: -webkit-linear-gradient(90deg, #b4d3ec 0%, #deebf1 80%);
+    background: -moz-linear-gradient(90deg, #b4d3ec 0%, #deebf1 80%);
+    padding: 20px;
+    /*sombra*/
+    box-shadow: 10px 20px 25px black;
+    /*eje X - eje Y - desenfoque - color*/
+    /*borde redondeado*/
+    border-radius: 20px 40px 60px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#pelis {
+    margin-top: 20px;
+    width: 50%;
+    height: 400px;
+    /* background-color: rgba(148, 148, 238, 0.5); */
+    background: #b4d3ec;
+    background: linear-gradient(90deg, #b4d3ec 0%, #deebf1 80%);
+    background: -webkit-linear-gradient(90deg, #b4d3ec 0%, #deebf1 80%);
+    background: -moz-linear-gradient(90deg, #b4d3ec 0%, #deebf1 80%);
+    padding: 20px;
+    /*sombra*/
+    box-shadow: 10px 20px 25px black;
+    /*eje X - eje Y - desenfoque - color*/
+    /*borde redondeado*/
+    border-radius: 20px 40px 60px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#perfil {
+    margin-top: 20px;
+    width: 50%;
+    height: 600px;
+    /* background-color: lightgray;*/
+    background: #f6eded;
+    background: linear-gradient(90deg, #f6eded 0%, #bdc0bd 80%);
+    background: -webkit-linear-gradient(90deg, #f6eded 0%, #bdc0bd 80%);
+    background: -moz-linear-gradient(90deg, #f6eded 0%, #bdc0bd 80%);
+    padding: 20px;
+    /*sombra*/
+    box-shadow: 10px 20px 25px black;
+    /*eje X - eje Y - desenfoque - color*/
+    /*borde redondeado*/
+    border-radius: 20px 40px 60px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
