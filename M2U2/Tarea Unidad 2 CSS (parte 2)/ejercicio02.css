@@ -3,6 +3,7 @@
     width: 450px;
     background-color: white;
     display:inline-flex;
+    flex-direction: row-reverse;
     border: solid black;
     /* justify-content: flex-start; */
     /*justify-content: flex-end;*/
