@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3U4: Ejercicio 1</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="red box" onclick="changeBack('red')"></div>
+        <div class="green box" onclick="changeBack('green')"></div>
+        <div class="blue box" onclick="changeBack('blue')"></div>
+
+    </div>
+
+    <style>
+        .contenedor{
+            display: flex;
+        }        
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;            
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .box {
+            height: 300px;
+            width: 300px;
+            cursor: pointer;
+        }
+
+    </style>
+
+    <script>
+        function changeBack(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+</body>
+</html>
